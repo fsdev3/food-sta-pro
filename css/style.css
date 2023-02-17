@@ -1,0 +1,82 @@
+
+:root {
+    --yellow:#FFE550;
+    --black: #2C2C2C; 
+    --white: #FEFEFE; 
+    --green:#7EB101;
+}
+
+.container {
+background-color: var(--yellow);
+width: 1280px;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.customers-general {padding:0;
+margin: 0;
+padding-top: 100px;
+padding-bottom: 200px;}
+.header-customers {font-family: roboto,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+margin-left: 16px;
+color: var(--black); margin-bottom: 20px;} 
+
+.text-customers {font-family: roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+color: var(--black);
+margin-left: 16px;
+margin-bottom: 32px;}
+
+.customers-block { background-color: var(--white);
+width: 501px;
+    height: 227px; 
+    margin: 0;
+    padding: 0;
+    padding: 14px;
+    border-radius: 0px 30px 30px 30px;
+}
+
+    .customers-cards {margin:0; padding:0; display: flex; gap:139px; margin-left: 16px;}
+
+    .customers-quote {margin: 0; padding: 0; margin-bottom: 48px;}
+
+    .customers-title {padding:0; margin: 0; font-family: roboto,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;}
+
+    .customers-text {padding: 0;
+        margin: 0;
+        font-family: roboto,sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.5;}
+
+            .sign-cus {display: flex; gap: 24px;}
+
+            .star {padding: 0;
+            margin: 0;
+            display:flex;
+        height: 16px;
+    margin-bottom: 28px;
+gap:4px;
+margin-left: 15px;}
+
+            .star-svg {padding: 0;
+            margin: 0;
+        fill:var(--yellow);
+    width: 16px;
+}
+.line {
+    padding: 0;
+    margin: 0; width: 52px;
+border: 1px solid var(--green); transform: rotate(90deg);}
