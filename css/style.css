@@ -27,6 +27,11 @@
     color: inherit;
     text-decoration: none;
   }
+
+  .link:hover,
+  .link:focus {
+    color: var(--accent-color);
+  }
   
   .container {
     width: 100%;
@@ -94,12 +99,11 @@
     padding: 28px 0;
   }
   
-  .link:hover,
-  .link:focus,
+  
   .link.current {
     color: var(--accent-color);
+    text-decoration: underline;
   }
-  
   
 
   .btn {
