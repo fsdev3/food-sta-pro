@@ -16,6 +16,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -50,14 +55,26 @@
       
       <!-- Hero Oleksandr -->
       <section class="hero">
-        <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
-        <p class="hero-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-        </p>
-        <button class="green-btn btn" type="button">Order Now</button>
-        <img class="food-img" src="./img/food.jpg" alt="food" width="528" height="528" />
+
+        <div class="container hero-box">
+          <div class="hero-content">
+            <h1 class="title">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+              libero vitae erat.
+            </p>
+            <button class="btn" type="button">Order Now</button>
+          </div>
+          
+          <div class="slider-img autoplay" data-autoplay="true" data-interval="7000" data-loop="true">
+            <div><img src="./img/food_1.jpg" alt="food" width="528" height="528"></div>
+            <div><img src="./img/food_2.jpg" alt="food" width="528" height="528"></div>
+            <div><img src="./img/food_3.jpg" alt="food" width="528" height="528"></div>
+          </div>
+        </div>
+
       </section>
       <!-- Offerings Olena  -->
       <section class="offer">
@@ -124,5 +141,10 @@
         <li><a href="">Contact</a></li>
       </ul>
     </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./js/slider.js"></script>
   </body>
 </html>
