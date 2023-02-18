@@ -116,14 +116,12 @@ ul {
   cursor: pointer;
 }
 
-
 .nav-btn:hover,
 .nav-btn:focus {
   background-color: var(--second-bg-color);
 }
 
 /* ----------------main------------------- */
-
 
 /* ---------- Hero ---------- */
 .hero {
@@ -173,19 +171,7 @@ ul {
   border-radius: 50%;
   overflow: hidden;
 }
-=======
-.hero {
-}
-.hero-title {
-}
-.hero-text {
-}
-.green-btn {
-}
-.btn {
-}
-.food-img {
-}
+
 /* offering */
 .offer {
 }
@@ -214,4 +200,3 @@ ul {
 }
 
 /* footer */
-
