@@ -1,129 +1,164 @@
 /* --------------colors------------- */
 
 :root {
-    --bg-color: #fefefe;
-    --second-bg-color: #ffe550;
-    --main-color: #2c2c2c;
-    --accent-color: #bbf330;
-    --extra-color: #7eb101;
-  }
-  
-  /* ---------------general------------ */
-  
-  body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-  
-    background-color: var(--bg-color);
-  }
-  
-  .list {
-    list-style: none;
-  }
-  
-  .link {
-    color: inherit;
-    text-decoration: none;
-  }
+  --bg-color: #fefefe;
+  --second-bg-color: #ffe550;
+  --main-color: #2c2c2c;
+  --accent-color: #bbf330;
+  --extra-color: #7eb101;
+}
 
-  .link:hover,
-  .link:focus {
-    color: var(--accent-color);
-  }
-  
-  .container {
-    width: 100%;
-    max-width: 1280px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin: 0 auto;
-  }
-  
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-  }
-  
-  ul {
-    margin: 0;
-    padding-left: 0;
-  }
-  
-  /* ----------------header------------- */
-  
-  .header {
-    box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
-  }
-  
-  .header-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
-  }
-  
-  .nav {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-  }
-  
-  .nav-list {
-    display: flex;
-    gap: 28px;
-  }
-  
-  .nav-flex {
-    justify-content: flex-end;
-  }
-  
-  .nav-item {
-    font-size: 14px;
-    line-height: 1.14;
-  }
-  
-  .nav-item .link {
-    display: block;
-    padding: 28px 0;
-  }
-  
-  
-  .link.current {
-    color: var(--accent-color);
-    text-decoration: underline;
-  }
-  
+/* ---------------general------------ */
 
-  .btn {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 1.5;
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  background-color: var(--bg-color);
+}
 
-    width: 98px;
-    height: 32px;
-    background-color: var(--accent-color);
-    border-style: none;
-    border-radius: 30px;
-     
-    cursor: pointer;
-  }
-  
-  .nav-btn:hover,
-  .nav-btn:focus {
-    background-color: var(--second-bg-color);
-  }
+.list {
+  list-style: none;
+}
 
-  /* ----------------main------------------- */
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+/* resets */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+/* ----------------header------------- */
+
+.header {
+  box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-flex {
+  justify-content: flex-end;
+}
+
+.nav-item {
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.nav-item .link {
+  display: block;
+  padding: 28px 0;
+}
+
+.link.current {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+
+  width: 98px;
+  height: 32px;
+  background-color: var(--accent-color);
+  border-style: none;
+  border-radius: 30px;
+
+  cursor: pointer;
+}
+
+.green-btn:hover,
+.green-btn:focus {
+  background-color: var(--second-bg-color);
+}
+
+/* ----------------main------------------- */
+.hero {
+}
+.hero-title {
+}
+.hero-text {
+}
+.green-btn {
+}
+.btn {
+}
+.food-img {
+}
+/* offering */
+.offer {
+}
+.offer-title {
+}
+.offer-img {
+}
+.offer-text {
+}
+.list {
+}
+.item {
+}
+.item-title {
+}
+.item-text {
+}
+.white-btn {
+}
+/* favorites */
+
+/* customers say */
+
+/* subscribe */
+.subscribe {
+}
+
+/* footer */
