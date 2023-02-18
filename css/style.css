@@ -12,10 +12,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
-
   background-color: var(--bg-color);
 }
 
@@ -119,12 +116,14 @@ ul {
   cursor: pointer;
 }
 
+
 .nav-btn:hover,
 .nav-btn:focus {
   background-color: var(--second-bg-color);
 }
 
 /* ----------------main------------------- */
+
 
 /* ---------- Hero ---------- */
 .hero {
@@ -174,3 +173,45 @@ ul {
   border-radius: 50%;
   overflow: hidden;
 }
+=======
+.hero {
+}
+.hero-title {
+}
+.hero-text {
+}
+.green-btn {
+}
+.btn {
+}
+.food-img {
+}
+/* offering */
+.offer {
+}
+.offer-title {
+}
+.offer-img {
+}
+.offer-text {
+}
+.list {
+}
+.item {
+}
+.item-title {
+}
+.item-text {
+}
+.white-btn {
+}
+/* favorites */
+
+/* customers say */
+
+/* subscribe */
+.subscribe {
+}
+
+/* footer */
+
