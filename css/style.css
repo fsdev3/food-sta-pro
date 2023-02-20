@@ -134,6 +134,7 @@ ul {
   display: flex;
   align-items: flex-start;
 }
+
 .hero-content {
   width: 654px;
 }
@@ -174,43 +175,151 @@ ul {
 }
 
 /* offering */
-.offer {
+/* -------------offering Olena------------- */
+
+.offering {
+  width: 1280px;
+  height: 824px;
+  display: flex;
+  margin-top: 100px;
 }
-.offer-title {
+
+.offering-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 120%;
+  color: #2C2C2C;
+  display: inline-flex;
+  margin-bottom: 20px;
 }
-.offer-img {
+
+.offering-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
 }
-.offer-text {
+
+.offering-first {
+
+  flex-direction: flex;
+  margin-bottom: 40px;
 }
-.list {
+
+.offering-second {
+  display: flex;
 }
-.item {
+
+.offering-list {
+  display: flex;
+  gap: 67px;
 }
-.item-title {
+
+.offering-link1 {
+  display: ;
 }
-.item-text {
+
+.fasest-delivery {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
 }
-.white-btn {
+
+.offering-paragraf1 {
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
 }
+
+.easy-to-order {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.offering-paragraf2 {}
+
+.offering-button {
+  box-sizing: border-box;
+  width: 106px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 2px solid #7EB101;
+  border-radius: 30px;
+  display: flex;
+  align-content: center;
+  margin-top: 32px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  cursor: pointer;
+  padding-top: 10px;
+  padding: bottom 10px;
+  padding-left: 24px;
+}
+
+
+
+
+
+.container-offering-apfel {
+  width: 656px;
+  display: block;
+  margin-bottom: 145px;
+}
+
+.container-offering-second {
+  width: 656px;
+  display: block;
+
+}
+
+
+.offering-list {}
+
+.offering-link {}
+
+
+.fasest-delivery {}
+
+.offering-paragraf1 {
+  width: 253px;
+}
+
 /* favorites */
 
 /* customers say */
 
 /* subscribe */
-.subscribe {
-}
+.subscribe {}
+
 .subs-title {
   font-weight: 700;
   font-size: 42px;
   line-height: 1.2;
   color: var(--main-color);
 }
+
 .subs-box {
   display: flex;
 }
+
 .subs-text {
   margin-top: 20px;
 }
+
 .subs-form {
   margin-top: 24px;
   font-size: 12px;
