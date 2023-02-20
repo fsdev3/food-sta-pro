@@ -222,18 +222,9 @@ ul {
   padding-left: 24px;
 }
 
-.nav-btn:hover,
-.nav-btn:focus {
-  background-color: var(--second-bg-color);
-}
 
-.link {
-  text-decoration: none;
-}
 
-.list {
-  list-style: none;
-}
+
 
 .container-offering-apfel {
   width: 656px;
