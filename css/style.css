@@ -326,6 +326,7 @@ ul {
 
 .footer {
   padding-top: 100px;
+  background-color: var(--bg-color);
 }
 
 /* .footer-logo {
@@ -345,10 +346,9 @@ ul {
 }
 
 .footer-nav-list-element {
-  font-weight: 400;
+  color: var(--main-color);
   font-size: 14px;
   line-height: 1.14;
-  color: #2c2c2c;
 }
 
 .footer-sbscrb-wrap {
@@ -362,10 +362,10 @@ ul {
 .footer-sbscrb-form-titel {
   padding-top: 100px;
   margin-bottom: 12px;
-  font-weight: 500;
+  font-weight: 5;
   font-size: 14px;
   line-height: 1.5;
-  color: #2c2c2c;
+  color: var(--main-color);
 }
 
 .footer-sbscrb-input {
@@ -374,6 +374,19 @@ ul {
   height: 42px;
   margin-bottom: 12px;
   margin-right: 13px;
+  background-color: #fefefe;
+  border: 0.854167px solid #ffe550;
+  border-radius: 30px;
+  outline: none;
+
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--main-color);
+  padding-left: 12px;
+}
+
+.footer-sbscrb-input::placeholder {
+  color: var(--form-text);
 }
 
 .footer-sbscrb-btn {
@@ -386,7 +399,7 @@ ul {
   font-weight: 500;
   font-size: 13px;
   line-height: 1.5;
-  color: #2c2c2c;
+  color: var(--main-color);
 }
 
 .footer-sbscrb-btn:is(:hover, :focus) {
@@ -396,10 +409,9 @@ ul {
 
 .footer-sbscrb-policy {
   padding-bottom: 80px;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
-  color: #2c2c2c;
+  color: var(--main-color);
 }
 
 .footer-sbscrb-policy-link {
@@ -419,15 +431,13 @@ ul {
 }
 
 .footer-link-list-element {
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
   color: #7eb101;
 }
 
 .footer-authority-inf {
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
-  color: #2c2c2c;
+  color: var(--main-color);
 }
