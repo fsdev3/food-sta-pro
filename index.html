@@ -172,17 +172,45 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer>
-      <a href=""><img src="./img/logo.png" alt="logo" width="66" height="52"></a>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Service</a></li>
-        <li><a href="">Menu</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </footer>
-
+    <footer class="footer">
+      <div class="container footer">
+        <div class="footer-top-conteiner">
+          <a href="" class="footer-logo"><svg width="66" height="52">
+            <use href="./img/sprite.svg#icon-logo"></use>
+          </svg></a>
+          <ul class="list footer-nav-list">
+            <li><a href="" class="link footer-nav-list-element">Home</a></li>
+            <li><a href="" class="link footer-nav-list-element">About</a></li>
+            <li><a href="" class="link footer-nav-list-element">Service</a></li>
+            <li><a href="" class="link footer-nav-list-element">Menu</a></li>
+            <li><a href="" class="link footer-nav-list-element">Contact</a></li>
+          </ul>
+          <div class="footer-sbscrb-wrap">
+            <p class="footer-sbscrb-form-titel">Subscribe</p>
+            <form class="footer-sbscrb-form">
+              <input 
+              class="footer-sbscrb-input"
+              type="email"
+              name="input-email"
+              id="sbscrb-email"
+              placeholder="Enter your email">
+            
+            <label for="sbscrb-email"></label>
+            <button type="submit" class="footer-sbscrb-btn">Subscribe</button>
+          </form>
+            <p class="footer-sbscrb-policy">By subscribing you agree to with our <span><a href="" class="footer-sbscrb-policy-link">Privacy Policy</a></span></p>
+            </div>
+          </div>
+          <div class="footer-bottom-conteiner">
+          <ul class="list footer-link-list">
+            <li><a href="" class="footer-link-list-element">Privacy Policy</a></li>
+            <li><a href="" class="footer-link-list-element">Terms of Service</a></li>
+            <li><a href="" class="footer-link-list-element">Cookies Settings</a></li>
+          </ul>
+          <p class="footer-authority-inf">2022 FoodSta. All right reserved.</p>
+        </div>
+      </div>
+        </footer>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
